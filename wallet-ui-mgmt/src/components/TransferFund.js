@@ -60,7 +60,7 @@ export const TransferFund = () => {
                                  <option>Select wallet 1</option>
                                 {
                                     wallets1.map((wallet) => (
-                                        <option value={wallet.id}>{wallet.walletName}-{wallet.walletBalanceFund}</option>
+                                        <option value={wallet.id}>{wallet.walletName}(${wallet.walletBalanceFund})</option>
                                     ))
                                 }
 
